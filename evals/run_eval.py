@@ -43,7 +43,8 @@ def score(r: lw.Result, gold: dict) -> tuple[Counter, list[str]]:
     removed = next((f.split("'")[1] for f in r.fixes if f.startswith("brand")), "")  # what the guardrail took out
     claimed = a.brand or removed  # the model's brand before the guardrail
     brand_ok = gold["brand"] in a.brand.lower() if gold["brand"] else not invented(a.brand)
-    missing_facts = [f for f in gold["must_mention"] if f not in text]
+    # a fact may list alternatives, e.g. "heart|herz" for German listings
+    missing_facts = [f for f in gold["must_mention"] if not any(alt in text for alt in f.split("|"))]
     c = Counter(runs=1, item=any(w in f"{a.item_type} {li.title}".lower() for w in gold["item_words"]),
                 color_runs=bool(gold["colors"]), color=any(w in a.color.lower() for w in gold["colors"]),
                 brand_ok=brand_ok, invented_before=invented(claimed), invented_after=invented(a.brand),

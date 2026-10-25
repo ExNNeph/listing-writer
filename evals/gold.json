@@ -52,7 +52,7 @@
     "item_words": ["sunglasses", "sonnenbrille", "glasses", "brille"],
     "colors": ["pink", "rosa", "rose", "gold", "copper", "kupfer", "bronze"],
     "brand": "",
-    "must_mention": ["heart"],
+    "must_mention": ["heart|herz"],
     "note": "heart-shaped rimless sunglasses, no readable brand"
   },
   "book-back-cover.jpg": {
