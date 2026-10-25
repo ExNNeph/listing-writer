@@ -63,5 +63,37 @@
     "brand_ok": ["houghton mifflin", "ticknor & fields", "ticknor and fields", "houghton mifflin company"],
     "must_mention": ["bit by bit"],
     "note": "back cover; title, author, publisher and ISBN are printed, so the title must appear in the listing"
+  },
+  "knit-scarf.jpg": {
+    "source": "generated",
+    "item_words": ["scarf", "schal"],
+    "colors": ["grey", "gray", "grau", "anthrazit", "charcoal"],
+    "brand": "",
+    "must_mention": [],
+    "note": "ribbed knit scarf with fringes, no label"
+  },
+  "wooden-chair.jpg": {
+    "source": "generated",
+    "item_words": ["chair", "stuhl"],
+    "colors": ["wood", "holz", "brown", "braun", "natural", "natur", "oak", "eiche", "honey", "honig", "pine", "kiefer"],
+    "brand": "",
+    "must_mention": [],
+    "note": "spindle-back wooden chair with a worn seat, no label"
+  },
+  "tote-bag.jpg": {
+    "source": "generated",
+    "item_words": ["bag", "tasche", "tote", "beutel"],
+    "colors": ["navy", "blue", "blau", "dunkelblau", "marine"],
+    "brand": "kestralo",
+    "must_mention": [],
+    "note": "invented brand KESTRALO printed large on the front: readable, so it must be used even though it is unknown"
+  },
+  "teddy-bear.jpg": {
+    "source": "generated",
+    "item_words": ["teddy", "bear", "bär", "plüsch", "plush", "kuscheltier"],
+    "colors": ["brown", "braun", "caramel", "karamell", "beige", "golden"],
+    "brand": "",
+    "must_mention": [],
+    "note": "plush bear with a red bow, no label"
   }
 }

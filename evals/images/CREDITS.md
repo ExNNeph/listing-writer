@@ -13,3 +13,9 @@ uploaders. They were downscaled to at most 1200 px and re-encoded (metadata remo
 | watch-dial.jpg | [Fashion-wristwatch-time-watch-1 (24325510005).jpg](https://commons.wikimedia.org/wiki/File:Fashion-wristwatch-time-watch-1_(24325510005).jpg) | CC0 |
 | heart-sunglasses.jpg | [Heart sunglasses, front view.jpg](https://commons.wikimedia.org/wiki/File:Heart_sunglasses,_front_view.jpg) | CC0 |
 | book-back-cover.jpg | [Back cover of Bit by Bit An Illustrated History of Computers by Stan Augarten 1984.jpg](https://commons.wikimedia.org/wiki/File:Back_cover_of_Bit_by_Bit_An_Illustrated_History_of_Computers_by_Stan_Augarten_1984.jpg) | CC0 |
+
+## AI-generated
+
+knit-scarf.jpg, wooden-chair.jpg, tote-bag.jpg and teddy-bear.jpg were generated for this
+eval with an image model (gpt_image_2_5 via Higgsfield). The brand "KESTRALO" on the tote bag is invented,
+to test that a readable logo is used even when the brand is unknown.
