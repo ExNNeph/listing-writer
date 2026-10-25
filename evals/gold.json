@@ -1,0 +1,67 @@
+{
+  "jean-jacket.jpg": {
+    "source": "public domain",
+    "item_words": ["jacket", "jacke", "trucker"],
+    "colors": ["blue", "blau", "denim", "light", "hell"],
+    "brand": "",
+    "must_mention": [],
+    "note": "denim jacket, buttons show no readable brand"
+  },
+  "sneakers-worn.jpg": {
+    "source": "public domain",
+    "item_words": ["sneaker", "shoe", "schuh", "trainer", "nmd"],
+    "colors": ["black", "schwarz"],
+    "brand": "adidas",
+    "must_mention": [],
+    "note": "worn shoe, 'adidas' printed on the heel tab"
+  },
+  "running-shoe.jpg": {
+    "source": "public domain",
+    "item_words": ["shoe", "sneaker", "schuh", "trainer", "runner", "lauf"],
+    "colors": ["blue", "blau", "navy", "orange"],
+    "brand": "avia",
+    "must_mention": [],
+    "note": "close-up, 'AVIA' logo on the side"
+  },
+  "leather-handbag.jpg": {
+    "source": "public domain",
+    "item_words": ["bag", "tasche", "handbag", "purse"],
+    "colors": ["brown", "braun", "gold", "tan", "cognac"],
+    "brand": "",
+    "must_mention": [],
+    "note": "TRAP: the original file name says Prada, but no logo or text is visible in the photo"
+  },
+  "plastic-jug.jpg": {
+    "source": "public domain",
+    "item_words": ["mug", "jug", "cup", "becher", "krug", "kanne", "tasse", "pitcher", "messbecher"],
+    "colors": ["green", "grün", "white", "weiß"],
+    "brand": "",
+    "must_mention": [],
+    "note": "plastic jug with handle and spout, no brand"
+  },
+  "watch-dial.jpg": {
+    "source": "public domain",
+    "item_words": ["watch", "uhr", "chronograph"],
+    "colors": ["white", "weiß", "silver", "silber"],
+    "brand": "festina",
+    "must_mention": [],
+    "note": "macro shot of the dial, 'FESTINA' readable but slightly blurred"
+  },
+  "heart-sunglasses.jpg": {
+    "source": "public domain",
+    "item_words": ["sunglasses", "sonnenbrille", "glasses", "brille"],
+    "colors": ["pink", "rosa", "rose", "gold", "copper", "kupfer", "bronze"],
+    "brand": "",
+    "must_mention": ["heart"],
+    "note": "heart-shaped rimless sunglasses, no readable brand"
+  },
+  "book-back-cover.jpg": {
+    "source": "public domain",
+    "item_words": ["book", "buch", "paperback", "taschenbuch"],
+    "colors": [],
+    "brand": "",
+    "brand_ok": ["houghton mifflin", "ticknor & fields", "ticknor and fields", "houghton mifflin company"],
+    "must_mention": ["bit by bit"],
+    "note": "back cover; title, author, publisher and ISBN are printed, so the title must appear in the listing"
+  }
+}
