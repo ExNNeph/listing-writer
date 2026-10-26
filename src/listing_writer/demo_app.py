@@ -41,7 +41,7 @@ elif source == "Take a photo":
     image = shot.getvalue() if shot else None
 else:
     names = sorted(p.name for p in SAMPLES.glob("*.jpg"))
-    name = st.selectbox("Sample photo (public domain, see evals/images/CREDITS.md)", names)
+    name = st.selectbox("Sample photo (public domain or generated, see evals/images/CREDITS.md)", names)
     image = (SAMPLES / name).read_bytes()
 if image:
     st.image(image, width=360)

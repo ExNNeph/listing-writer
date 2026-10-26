@@ -9,7 +9,21 @@ invented.
 
 ## Preview
 
-<!-- PREVIEW -->
+Pick a platform and language, add what you know (brand, size, notes), then upload a photo, take one
+with your webcam or use a sample:
+
+![Photo input with platform, language and seller facts](docs/preview-input.png)
+
+The leather handbag is the trap: its source file is called "Prada handbag", but no logo is visible, so
+the German Vinted listing names no brand. Claude even marks the material as "not confirmed". Each box has
+a copy button for pasting into the marketplace, and "What Claude saw" shows what the listing is based on:
+
+![Vinted listing in German for the handbag, brand not visible](docs/preview-handbag.png)
+
+The tote bag shows the opposite case: "KESTRALO" is an invented brand, but it is printed on the bag, so
+the Etsy listing uses it. Exactly 13 tags, each at most 20 characters:
+
+![Etsy listing in English for the tote bag with 13 tags](docs/preview-tote.png)
 
 ## Run it locally (step by step)
 
